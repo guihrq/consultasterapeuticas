@@ -1,15 +1,23 @@
         <footer>
-            <nav>
+            <!-- <nav>
                 <?php 
-                    $args = array (
-                        'menu' => 'principal',
-                        'container' => false
-                    );
-                    wp_nav_menu($args);
+                    // $args = array (
+                    //     'menu' => 'principal',
+                    //     'container' => false
+                    // );
+                    // wp_nav_menu($args);
                 ?>
-            </nav>
+            </nav> -->
 
-            <p><?php echo date("Y"); ?></p>
+            <a href="">
+                <img class="logo" src="assets/images/header/logo.png" alt="Logo Consultas Terapeuticas">
+            </a>
+            <a href="">Incrições on-line</a>
+            <a href="malito:consultas@consultasterapeuticas.com.br">consultas@consultasterapeuticas.com.br</a>
+            <p>Copyrights <?php echo date("Y"); ?> - Todos os direitos reservados.</p>
+            <a href="#topo">
+                <img class="" src="assets/images/seta-topo.png" alt="Seta Topo">
+            </a>
         </footer>
 
         <!-- Footer Wordpress -->
