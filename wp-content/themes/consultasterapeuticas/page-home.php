@@ -76,7 +76,7 @@
     <section class="profissionais" id="profissionais">
         <div class="container">
             <div class="row text-center"> 
-                <div class="col-sm-8 mx-auto pt-5 mb-4">
+                <div class="col-sm-7 mx-auto pt-5 mb-4">
                     <h2 class="mb-4">Profissionais Envolvidos</h2>
                     <p>Psicanalistas possuem um profundo conhecimento da teoria e prática winnicottiana.</p>
                     <p class="mb-5">São representantes desse coletivo: Afrânio de Matos Ferreira (<a href="mailto:afraniodematos@gmail.com">afraniodematos@gmail.com</a>)  e Angela May (<a href="mailto:angela@may.psc.br">angela@may.psc.br</a>).</p>
