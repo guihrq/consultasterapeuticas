@@ -221,3 +221,17 @@ img {
     background-color: #bb3f3f;
     color: #ffffff;
 }
+
+/* PARCEIROS */
+.parceiros {
+    background-color: #f2f2f2;
+}
+.parceiros h2 {
+    color: #003369;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.parceiros p {
+    font-size: 18px;
+    margin: 0 auto;
+}

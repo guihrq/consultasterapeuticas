@@ -97,13 +97,17 @@
         </div>
     </section>
 
-    <section class="parceiros" id="parceiros">
-        <div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/parceiros.png" alt="Parceiros">
-        </div>
-        <div>
-            <h2>Parceiros</h2>
-            <p>Pessoas, empresas e instituições que acreditam na importância do projeto e colaboram para sua manutenção e continuidade:</p>
+    <section class="parceiros pt-5 pb-5" id="parceiros">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/parceiros.png" alt="Parceiros">
+                </div>
+                <div class="col-sm-8">
+                    <h2>Parceiros</h2>
+                    <p>Pessoas, empresas e instituições que acreditam na importância do projeto e colaboram para sua manutenção e continuidade:</p>
+                </div>
+            </div>
         </div>
 
         <!-- carrossel parceiros -->
