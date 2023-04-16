@@ -168,3 +168,25 @@ img {
 .nosso-objetivo p {
     font-size: 18px;
 }
+
+/* NOSSA HISTÓRIA */
+.nossa-historia {
+    
+    background: url(assets/images/logo-fundo.png), #6fa6d0;;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #003369;
+}
+.nossa-historia h2 {
+    color: #003369;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.nossa-historia h3 {
+    color: #003369;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.nossa-historia p {
+    font-size: 18px;
+}

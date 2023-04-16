@@ -52,21 +52,27 @@
         </div>    
     </section>
 
-    <section class="nossa-historia" id="nossa-historia">
-        <h3>O Início</h3>
-        <p>O projeto foi elaborado, dirigido e realizado por um grupo de psicanalistas do Espaço Potencial Winnicott do Instituto Sedes Sapientiae e integrou-se aos Projetos da Clínica deste Instituto, durante o período da Pandemia. Agora em 2023, não está mais vinculado ao ISS, funciona como um Coletivo independente.</p>
-        <p>Visou, inicialmente, oferecer suporte psicológico aos profissionais da Saúde, que atuavam na linha de frente no início  da Pandemia. Logo percebemos a necessidade de ampliar o projeto para a população em geral. A demanda vinha de vários cantos do Brasil.</p>
-        <p>O projeto, certamente, nos ajudou a processar e amenizar as nossas angústias, visto que não nos paralisamos e nossa ação confirmou ser eficaz nesta situação que se apresentou.</p>
+    <section class="nossa-historia pt-5 pb-5" id="nossa-historia">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 mx-auto">
+                    <h2 class="mb-3">Nossa História</h2>
+                    <h3 class="mb-3">O Início</h3>
+                    <p class="mb-1">O projeto foi elaborado, dirigido e realizado por um grupo de psicanalistas do Espaço Potencial Winnicott do Instituto Sedes Sapientiae e integrou-se aos Projetos da Clínica deste Instituto, durante o período da Pandemia. Agora em 2023, não está mais vinculado ao ISS, funciona como um Coletivo independente.</p>
+                    <p class="mb-1">Visou, inicialmente, oferecer suporte psicológico aos profissionais da Saúde, que atuavam na linha de frente no início  da Pandemia. Logo percebemos a necessidade de ampliar o projeto para a população em geral. A demanda vinha de vários cantos do Brasil.</p>
+                    <p class="mb-3">O projeto, certamente, nos ajudou a processar e amenizar as nossas angústias, visto que não nos paralisamos e nossa ação confirmou ser eficaz nesta situação que se apresentou.</p>
 
-        <h3>O Resultado</h3>
-        <p>Com o passar do tempo, nosso trabalho foi se tornando conhecido e reconhecido pelo bom atendimento prestado às pessoas que nos procuraram e os próprios pacientes passaram a divulgar nosso serviço entre seus pares. A divulgação “boca a boca" e nas mídias incrementaram muito os encaminhamentos.</p>
-        <p>Nas crises se revelam potencialidades. A resiliência ou a vulnerabilidade, permitem a superação ou podem levar à regressões profundas, necessitando que o sujeito busque ajudas pontuais ou tratamentos prolongados.</p>
-        <p>As Consultas Terapêuticas têm se mostrado potentes e adequadas aos tratamentos deste tipo e podem ser uma possibilidade de experimentação de um contato terapêutico que desperte o indivíduo para novas experiências terapêuticas.</p>
+                    <h3 class="mb-3">O Resultado</h3>
+                    <p class="mb-1">Com o passar do tempo, nosso trabalho foi se tornando conhecido e reconhecido pelo bom atendimento prestado às pessoas que nos procuraram e os próprios pacientes passaram a divulgar nosso serviço entre seus pares. A divulgação “boca a boca" e nas mídias incrementaram muito os encaminhamentos.</p>
+                    <p class="mb-1">Nas crises se revelam potencialidades. A resiliência ou a vulnerabilidade, permitem a superação ou podem levar à regressões profundas, necessitando que o sujeito busque ajudas pontuais ou tratamentos prolongados.</p>
+                    <p class="mb-3">As Consultas Terapêuticas têm se mostrado potentes e adequadas aos tratamentos deste tipo e podem ser uma possibilidade de experimentação de um contato terapêutico que desperte o indivíduo para novas experiências terapêuticas.</p>
 
-        <h3>A continuidade</h3>
-        <p>Observamos que a Pandemia fez eclodir questões graves que estavam latentes na população e também provocou novos sofrimentos.</p>
-        <p>Atendemos classes populares que dificilmente chegariam a ter um atendimento psicológico. Nosso grupo se envolveu nesta empreitada com garra e disponibilidade, aperfeiçoando a técnica, fazendo pesquisas e desenvolvendo um trabalho pujante, ético e acolhedor.</p>
-
+                    <h3 class="mb-3">A continuidade</h3>
+                    <p class="mb-1">Observamos que a Pandemia fez eclodir questões graves que estavam latentes na população e também provocou novos sofrimentos.</p>
+                    <p class="mb-3">Atendemos classes populares que dificilmente chegariam a ter um atendimento psicológico. Nosso grupo se envolveu nesta empreitada com garra e disponibilidade, aperfeiçoando a técnica, fazendo pesquisas e desenvolvendo um trabalho pujante, ético e acolhedor.</p>
+                </div>
+            </div>
+        </div> 
     </section>
 
     <section class="profissionais" id="nossa-historia">
