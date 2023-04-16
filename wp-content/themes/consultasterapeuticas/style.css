@@ -101,7 +101,8 @@ img {
     width: 220px;
 }
 .btn-form:hover {
-    background-color: #bb3f3f;
+    /* background-color: #bb3f3f; */
+    background-color: #003369;
     color: #ffffff;
 }
 
@@ -146,4 +147,24 @@ img {
 .coletivo .btn-form {
     font-size: 18px;
     width: 275px;
+}
+.coletivo .btn-form:hover {
+    background-color: #bb3f3f;
+    color: #ffffff;
+}
+
+/* BLOG */
+
+/* NOSSO OBJETIVO */
+.nosso-objetivo {
+    background-color: #003369;
+    color: #ffffff;
+}
+.nosso-objetivo h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.nosso-objetivo p {
+    font-size: 18px;
 }

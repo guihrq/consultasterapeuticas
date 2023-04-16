@@ -23,18 +23,15 @@
 
     <section class="coletivo" id="coletivo">
         <div class="container">
-            <div class="row text-center">
-                
+            <div class="row text-center"> 
                 <div class="col-sm-8 mx-auto pt-5 mb-4">
                     <h2 class="mb-4">O Coletivo</h2>
                     <p>O Coletivo se inspirou nas <span>Consultas Terapêuticas de Donald Woods Winnicott</span>, a partir de sua longa e rica experiência como pediatra, psicanalista e psiquiatra. Trata-se de um dispositivo terapêutico de grande potência, nas situações de crises, no qual o analista oferece uma hospedagem, um  espaço terapêutico, onde <span>um encontro e uma comunicação verdadeira e significativa</span> possa ocorrer, elaborando seus sofrimentos e <span>dando continuidade a sua linha de vida</span>.</p>
                     <p class="call mt-3 mb-4">Se você precisa de ajuda, clique no botão e inscreva-se para solicitar uma consulta.</p>
                 </div>
-
                 <div class="col-sm-8 mx-auto mb-5">
                     <a class="btn-form" href="">Solicitar Consulta</a>
                 </div>
-
             </div>
         </div>
     </section>
@@ -44,9 +41,15 @@
         <a href="" class="btn">Ver Todos os Posts</a>
     </section>
 
-    <section class="nosso-objetivo" id="nosso-objetivo">
-        <h2>Nosso Objetivo</h2>
-        <p>Oferecer Consultas Terapêuticas on-line às pessoas, que estejam atravessando situações de crise: momentos difíceis da sua vida, sofrimentos psicológicos, inseguranças, medos, ansiedades e angústias, visando acolher, oferecer continência e suporte psicológico para que as pessoas possam elaborar seus sofrimentos e dar continuidade a sua linha de vida.</p>
+    <section class="nosso-objetivo pt-5 pb-5" id="nosso-objetivo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 mx-auto">
+                    <h2 class="mb-3">Nosso Objetivo</h2>
+                    <p>Oferecer Consultas Terapêuticas on-line às pessoas, que estejam atravessando situações de crise: momentos difíceis da sua vida, sofrimentos psicológicos, inseguranças, medos, ansiedades e angústias, visando acolher, oferecer continência e suporte psicológico para que as pessoas possam elaborar seus sofrimentos e dar continuidade a sua linha de vida.</p>
+                </div>
+            </div>
+        </div>    
     </section>
 
     <section class="nossa-historia" id="nossa-historia">
