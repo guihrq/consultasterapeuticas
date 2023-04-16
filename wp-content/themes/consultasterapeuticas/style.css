@@ -235,3 +235,18 @@ img {
     font-size: 18px;
     margin: 0 auto;
 }
+
+/* INSTAGRAM */
+.instagram h2 {
+    color: #003369;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.instagram img {
+    width: 50px;
+}
+.instagram a {
+    color: #003369;
+    font-size: 18px;
+    text-decoration: underline;
+}

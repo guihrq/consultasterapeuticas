@@ -114,13 +114,23 @@
 
     </section>
 
-    <section class="instagram" id="instagram">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-instagram.png" alt="Ícone Instagram">
-        <h2>Instagram</h2>
-        <a href="https://www.instagram.com/consultasterapeuticas/" target="_blank">@consultasterapeuticas</a>
+    <section class="instagram pt-5 pb-5" id="instagram">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10  mx-auto mb-2">
+                    <img class="d-block m-auto" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-instagram.png" alt="Ícone Instagram">
+                </div>
+                <div class="col-sm-10 text-center mx-auto mb-2">
+                    <h2>Instagram</h2>
+                </div>
+                <div class="col-sm-10 text-center mx-auto">
+                    <a href="https://www.instagram.com/consultasterapeuticas/" target="_blank">@consultasterapeuticas</a>
+                </div>
 
-        <!-- carrossel posts instagram -->
-
+                <!-- carrossel posts instagram -->
+            
+            </div>
+        </div>
     </section>
 
 <?php endwhile; else: endif; ?>
