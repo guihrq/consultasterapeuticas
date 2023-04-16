@@ -5,8 +5,6 @@
 <?php get_header(); ?>
 <?php if(have_posts()) : while (have_posts()) : the_post(); ?>
 
-    <!-- <h1>Essa é a Home</h1> -->
-
     <section class="banner">
         <div class="container">
             <div class="row">
@@ -76,16 +74,27 @@
     </section>
 
     <section class="profissionais" id="nossa-historia">
-        <h2>Profissionais Envolvidos</h2>
-        <p>Psicanalistas possuem um profundo conhecimento da teoria e prática winnicottiana.</p>
-        <p>São representantes desse coletivo: Afrânio de Matos Ferreira (afraniodematos@gmail.com)  e Angela May (angela@may.psc.br).</p>
-        <p>Atualmente fazem parte do projeto:</p>
+        <div class="container">
+            <div class="row text-center"> 
+                <div class="col-sm-8 mx-auto pt-5 mb-4">
+                    <h2 class="mb-4">Profissionais Envolvidos</h2>
+                    <p>Psicanalistas possuem um profundo conhecimento da teoria e prática winnicottiana.</p>
+                    <p class="mb-5">São representantes desse coletivo: Afrânio de Matos Ferreira (<a href="mailto:afraniodematos@gmail.com">afraniodematos@gmail.com</a>)  e Angela May (<a href="mailto:angela@may.psc.br">angela@may.psc.br</a>).</p>
+                    <p>Atualmente fazem parte do projeto:</p>
+                </div>
 
-        <!-- repeater profissionais -->
+                <div class="col-sm-8 mx-auto pt-5 mb-4">
+                    <!-- repeater profissionais -->
+                </div>
 
-        <p>Se você precisa de ajuda, clique no botão e inscreva-se para solicitar uma consulta.</p>
-        <a href="" class="btn">Solicitar Consulta</a>
-
+                <div class="col-sm-8 mx-auto pt-5 mb-4">
+                    <p class="call mt-3 mb-4">Se você precisa de ajuda, clique no botão e inscreva-se para solicitar uma consulta.</p>
+                </div>
+                <div class="col-sm-8 mx-auto mb-5">
+                    <a href="" class="btn-form">Solicitar Consulta</a>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="parceiros" id="parceiros">

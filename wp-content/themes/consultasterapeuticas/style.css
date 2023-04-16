@@ -171,7 +171,6 @@ img {
 
 /* NOSSA HISTÓRIA */
 .nossa-historia {
-    
     background: url(assets/images/logo-fundo.png), #6fa6d0;;
     background-repeat: no-repeat;
     background-position: center;
@@ -189,4 +188,36 @@ img {
 }
 .nossa-historia p {
     font-size: 18px;
+}
+
+/* PROFISSIONAIS */
+.profissionais h2 {
+    color: #003369;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.profissionais p {
+    font-size: 18px;
+    margin: 0 auto;
+}
+.profissionais p a {
+    color: #5c5c5d;
+    cursor: pointer;
+    font-weight: 600;
+}
+.profissionais p a:hover {
+    color: #003369;
+}
+.profissionais .call {
+    color: #9a0000;
+    font-weight: 600;
+    width: 42%;
+}
+.profissionais .btn-form {
+    font-size: 18px;
+    width: 275px;
+}
+.profissionais .btn-form:hover {
+    background-color: #bb3f3f;
+    color: #ffffff;
 }
