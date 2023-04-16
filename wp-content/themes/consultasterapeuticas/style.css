@@ -6,3 +6,71 @@ Author URI: https://github.com/guihrq
 Description: Tema desenvolvido para o site Consultas Terapeuticas
 Version: 1.0
 */
+
+@import 'css/blog.css';
+@import 'css/main.css';
+
+/* RESET */
+* {
+    box-sizing: border-box;
+}
+body, h1, h2, h3, ul, li, a, p {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lora', serif;
+}
+body {
+    color: #5c5c5d;
+}
+a {
+    text-decoration: none;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* MENU HEADER */
+.menu-bg {
+    background: #ffffff;
+}
+.menu {
+    max-width: 960px;
+    margin: 0 auto;
+    /* padding: 15px 0; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu a {
+    color: #003369;
+}
+.menu a:active {
+    color: #9a0000;
+    text-decoration: underline;
+}
+.menu-logo {
+    width: 240px;
+}
+.menu-logo a {
+    margin: 0 40px;
+}
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.menu-nav ul li {
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.menu nav a {
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+}
+.menu-nav a:hover {
+    color: #9a0000;
+}

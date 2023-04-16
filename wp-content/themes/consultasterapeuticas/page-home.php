@@ -62,7 +62,7 @@
 
     <section class="parceiros" id="parceiros">
         <div>
-            <img src="assets/images/parceiros.png" alt="Parceiros">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/parceiros.png" alt="Parceiros">
         </div>
         <div>
             <h2>Parceiros</h2>
@@ -74,7 +74,7 @@
     </section>
 
     <section class="instagram" id="instagram">
-        <img src="assets/images/icon-instagram.png" alt="Ícone Instagram">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-instagram.png" alt="Ícone Instagram">
         <h2>Instagram</h2>
         <a href="https://www.instagram.com/consultasterapeuticas/" target="_blank">@consultasterapeuticas</a>
 
