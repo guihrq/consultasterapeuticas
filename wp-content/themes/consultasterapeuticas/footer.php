@@ -23,5 +23,8 @@
         <!-- Footer Wordpress -->
         <?php wp_footer(); ?>
         <!-- Fecha Footer Wordpress -->
+        <!-- Bootstrap 5.3.0 -->
+        <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap/bootstrap.js"></script>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     </body>
 </html>

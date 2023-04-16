@@ -8,16 +8,35 @@
     <!-- <h1>Essa é a Home</h1> -->
 
     <section class="banner">
-        <h1>Consultas Terapêuticas<br>on-line e gratuitas</h1>
-        <p>Atendimento psicológico, em formato de Consultas Terapêuticas, para pessoas que estejam atravessando situações de crises, momentos difíceis, sofrimentos, inseguranças, ansiedades e angústias.</p>
-        <p>Atendimento gratuito, on-line, uma a cinco consultas.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                </div>
+                <div class="col-sm-6 pt-5 mt-4 texto-intro">
+                    <h1>Consultas Terapêuticas<br>on-line e gratuitas</h1>
+                    <p>Atendimento psicológico, em formato de Consultas Terapêuticas, para pessoas que estejam atravessando situações de crises, momentos difíceis, sofrimentos, inseguranças, ansiedades e angústias.</p>
+                    <p>Atendimento gratuito, on-line, uma a cinco consultas.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="coletivo" id="coletivo">
-        <h2>O Coletivo</h2>
-        <p>O Coletivo se inspirou nas Consultas Terapêuticas de Donald Woods Winnicott, a partir de sua longa e rica experiência como pediatra, psicanalista e psiquiatra. Trata-se de um dispositivo terapêutico de grande potência, nas situações de crises, no qual o analista oferece uma hospedagem, um  espaço terapêutico, onde um encontro e uma comunicação verdadeira e significativa possa ocorrer, elaborando seus sofrimentos e dando continuidade a sua linha de vida.</p>
-        <span>Se você precisa de ajuda, clique no botão e inscreva-se para solicitar uma consulta.</span>
-        <a href="" class="btn">Solicitar Consulta</a>
+        <div class="container">
+            <div class="row text-center">
+                
+                <div class="col-sm-8 mx-auto pt-5 mb-4">
+                    <h2 class="mb-4">O Coletivo</h2>
+                    <p>O Coletivo se inspirou nas <span>Consultas Terapêuticas de Donald Woods Winnicott</span>, a partir de sua longa e rica experiência como pediatra, psicanalista e psiquiatra. Trata-se de um dispositivo terapêutico de grande potência, nas situações de crises, no qual o analista oferece uma hospedagem, um  espaço terapêutico, onde <span>um encontro e uma comunicação verdadeira e significativa</span> possa ocorrer, elaborando seus sofrimentos e <span>dando continuidade a sua linha de vida</span>.</p>
+                    <p class="call mt-3 mb-4">Se você precisa de ajuda, clique no botão e inscreva-se para solicitar uma consulta.</p>
+                </div>
+
+                <div class="col-sm-8 mx-auto mb-5">
+                    <a class="btn-form" href="">Solicitar Consulta</a>
+                </div>
+
+            </div>
+        </div>
     </section>
 
     <section class="blog" id="blog">

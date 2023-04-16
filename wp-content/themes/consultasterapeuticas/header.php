@@ -12,6 +12,8 @@
     <!-- Fim Fontes -->
 
     <!-- Estilo CSS -->
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/bootstrap/bootstrap.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>"/>
     <!-- Fim Estilo CSS -->
 
@@ -38,5 +40,6 @@
                     wp_nav_menu($args);
                 ?>
             </nav>
+            <a class="btn-form" href="">Inscrições On-Line</a>
         </div>
     </header>

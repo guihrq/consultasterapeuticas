@@ -74,3 +74,76 @@ img {
 .menu-nav a:hover {
     color: #9a0000;
 }
+.btn-form {
+    color: #ffffff;
+    background-color: #9a0000;
+    border: none;
+    border-radius: 25px;
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 250px;
+}
+.btn-form:hover {
+    background-color: #bb3f3f;
+    color: #ffffff;
+}
+.btn-form {
+    color: #ffffff !important;
+    background-color: #9a0000;
+    border: none;
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 220px;
+}
+.btn-form:hover {
+    background-color: #bb3f3f;
+    color: #ffffff;
+}
+
+/* BANNER */
+.banner {
+    background: url(assets/images/banners/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 440px;
+    width: 100%;
+}
+.texto-intro h1 {
+    color: #ffffff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.65);
+}
+.texto-intro p {
+    color: #ffffff;
+    margin-top: 15px;
+    max-width: 75%;
+}
+
+/* COLETIVO */
+.coletivo h2 {
+    color: #9a0000;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.coletivo p {
+    font-size: 18px;
+    margin: 0 auto;
+}
+.coletivo p span {
+    font-weight: 600;
+}
+.coletivo .call {
+    color: #9a0000;
+    font-weight: 600;
+    width: 42%;
+}
+.coletivo .btn-form {
+    font-size: 18px;
+    width: 275px;
+}
