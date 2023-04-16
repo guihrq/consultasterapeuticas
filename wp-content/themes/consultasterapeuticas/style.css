@@ -35,9 +35,8 @@ img {
     background: #ffffff;
 }
 .menu {
-    max-width: 960px;
+    max-width: 1440px;
     margin: 0 auto;
-    /* padding: 15px 0; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -249,4 +248,26 @@ img {
     color: #003369;
     font-size: 18px;
     text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+    background: #f2f2f2;
+    color: #003369;
+}
+.footer {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.footer-logo {
+    width: 240px;
+}
+.img-topo {
+    width: 40px;
 }

@@ -32,13 +32,19 @@
                 </a>
             </div>
             <nav class="menu-nav">
-                <?php 
-                    $args = array (
-                        'menu' => 'principal',
-                        'container' => false
-                    );
-                    wp_nav_menu($args);
-                ?>
+                <ul>
+                    <li><a href="#coletivo">O Coletivo</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="#nossa-historia">Nossa História</a></li>
+                    <li><a href="#profissionais">Profissionais</a></li>
+                </ul>
+                <!-- <?php 
+                    // $args = array (
+                    //     'menu' => 'principal',
+                    //     'container' => false
+                    // );
+                    // wp_nav_menu($args);
+                ?> -->
             </nav>
             <a class="btn-form" href="">Inscrições On-Line</a>
         </div>

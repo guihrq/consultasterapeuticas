@@ -73,7 +73,7 @@
         </div> 
     </section>
 
-    <section class="profissionais" id="nossa-historia">
+    <section class="profissionais" id="profissionais">
         <div class="container">
             <div class="row text-center"> 
                 <div class="col-sm-8 mx-auto pt-5 mb-4">
