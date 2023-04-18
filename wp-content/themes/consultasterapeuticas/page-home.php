@@ -34,9 +34,20 @@
         </div>
     </section>
 
-    <section class="blog" id="blog">
-        <!-- repeater posts 6 últimas postagens -->
-        <a href="" class="btn">Ver Todos os Posts</a>
+    <section class="blog pt-5 pb-5" id="blog">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-8 mx-auto">
+                    <h2 class="mb-4">Blog</h2>
+                </div>
+                <div class="col-sm-8 mx-auto mb-5">
+                    <!-- repeater posts 6 últimas postagens -->    
+                </div>
+                <div class="col-sm-8 mx-auto">
+                    <a href="" class="btn-form-azul">Ver Todos os Posts</a>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="nosso-objetivo pt-5 pb-5" id="nosso-objetivo">
@@ -108,17 +119,24 @@
                     <p>Pessoas, empresas e instituições que acreditam na importância do projeto e colaboram para sua manutenção e continuidade:</p>
                 </div>
             </div>
+            <div class="row">
+                <div class="parceiros-carousel" data-flickity='{"autoPlay": true}'>
+                    <div class="parceiros-cell" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/parceiros/parceiro001.png);"></div>
+                    <div class="parceiros-cell" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/parceiros/parceiro002.png);"></div>
+                    <div class="parceiros-cell" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/parceiros/parceiro001.png);"></div>
+                    <div class="parceiros-cell" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/parceiros/parceiro002.png);"></div>
+                    <div class="parceiros-cell" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/parceiros/parceiro001.png);"></div>
+                    <div class="parceiros-cell" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/parceiros/parceiro002.png);"></div>
+                </div>
+            </div>
         </div>
-
-        <!-- carrossel parceiros -->
-
     </section>
 
     <section class="instagram pt-5 pb-5" id="instagram">
         <div class="container">
             <div class="row">
                 <div class="col-sm-10  mx-auto mb-2">
-                    <img class="d-block m-auto" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-instagram.png" alt="Ícone Instagram">
+                    <img class="logo-insta d-block m-auto" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-instagram.png" alt="Ícone Instagram">
                 </div>
                 <div class="col-sm-10 text-center mx-auto mb-2">
                     <h2>Instagram</h2>
@@ -126,9 +144,9 @@
                 <div class="col-sm-10 text-center mx-auto">
                     <a href="https://www.instagram.com/consultasterapeuticas/" target="_blank">@consultasterapeuticas</a>
                 </div>
-
-                <!-- carrossel posts instagram -->
-            
+            </div>
+            <div class="row">
+                <div id="instafeed" class="insta-carousel"></div>                
             </div>
         </div>
     </section>

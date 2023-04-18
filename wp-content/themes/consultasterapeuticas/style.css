@@ -153,6 +153,27 @@ img {
 }
 
 /* BLOG */
+.blog .btn-form-azul {
+    color: #ffffff !important;
+    background-color: #003369;
+    border: none;
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 275px;
+}
+.blog .btn-form-azul:hover {
+    background-color: #173e67;
+    color: #ffffff;
+}
+.blog h2 {
+    color: #003369;
+    font-size: 2rem;
+    font-weight: 600;
+}
 
 /* NOSSO OBJETIVO */
 .nosso-objetivo {
@@ -234,6 +255,28 @@ img {
     font-size: 18px;
     margin: 0 auto;
 }
+.parceiros-carousel {
+    margin-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.parceiros-cell {
+    min-width: 368px;
+    height: 255px;
+    margin-right: 50px;
+    border-radius: 5px;
+    counter-increment: parceiros-cell;
+}
+.flickity-prev-next-button {
+    background-color: #f2f2f2;
+    border: 3px solid #325d85;
+    color: #325d85;
+}
+.flickity-prev-next-button:hover {
+    background-color: #f2f2f2;
+    border: 3px solid #003369;
+    color: #003369;
+}
 
 /* INSTAGRAM */
 .instagram h2 {
@@ -241,13 +284,30 @@ img {
     font-size: 2rem;
     font-weight: 600;
 }
-.instagram img {
+.instagram img.logo-insta {
     width: 50px;
 }
 .instagram a {
     color: #003369;
     font-size: 18px;
     text-decoration: underline;
+}
+.insta-carousel {
+    margin-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.insta-cell {
+    min-width: 500px;
+    height: 500px;
+    margin-right: 20px;
+    border-radius: 5px;
+    counter-increment: insta-cell;
+}
+.insta-cell img {
+    width: 490px;
+    border: 2px solid #003369;
+    border-radius: 5px;
 }
 
 /* FOOTER */
