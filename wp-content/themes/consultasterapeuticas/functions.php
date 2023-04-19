@@ -28,14 +28,28 @@ function create_post_type() {
           'menu_position'      => 16,
           'menu_icon' => 'dashicons-id-alt',
           'supports' => array( 'title', 'editor' ),
-          // 'rewrite' => array('slug' => 'profissionais'),
           'rewrite' => false,
 		  'query_var' => false,
 		  'publicly_queryable' => false,
-		  // 'public'  => false
         )
     );
-    
+
+    register_post_type( 'parceiros',
+        array(
+          'labels'             => array(
+              'name'               => 'Parceiros',
+              'singular_name'      => 'Parceiro',
+          ),
+          'public' => true,
+          'has_archive' => true,
+          'menu_position'      => 16,
+          'menu_icon' => 'dashicons-groups',
+          'supports' => array( 'title', 'editor' ),
+          'rewrite' => false,
+		  'query_var' => false,
+		  'publicly_queryable' => false,
+        )
+    );
 }
 add_action( 'init', 'create_post_type' );
 

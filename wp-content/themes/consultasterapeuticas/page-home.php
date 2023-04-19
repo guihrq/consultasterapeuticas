@@ -138,12 +138,17 @@
             </div>
             <div class="row">
                 <div class="parceiros-carousel" data-flickity='{"autoPlay": true}'>
-                    <div class="parceiros-cell" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/parceiros/parceiro001.png);"></div>
-                    <div class="parceiros-cell" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/parceiros/parceiro002.png);"></div>
-                    <div class="parceiros-cell" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/parceiros/parceiro001.png);"></div>
-                    <div class="parceiros-cell" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/parceiros/parceiro002.png);"></div>
-                    <div class="parceiros-cell" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/parceiros/parceiro001.png);"></div>
-                    <div class="parceiros-cell" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/parceiros/parceiro002.png);"></div>
+                    <?php
+                        $loop = new WP_Query(array('post_type' => 'parceiros',
+                                    'orderby' => 'post_date',
+                                    'order' => 'ASC',
+                                    'posts_per_page' => -1));
+                        while ($loop->have_posts()) : $loop->the_post(); ?>
+                            
+                                <div class="parceiros-cell" style="background-image: url(<?php the_field('imagem_parceiro'); ?>);"></div>
+                            
+                        <?php endwhile; wp_reset_postdata(); 
+                    ?>
                 </div>
             </div>
         </div>
