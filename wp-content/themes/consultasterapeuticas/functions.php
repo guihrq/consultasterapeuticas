@@ -13,7 +13,30 @@ remove_action('wp_print_styles', 'print_emoji_styles');
 remove_action('admin_print_styles', 'print_emoji_styles');
 
 // Habilitar Menus
-add_theme_support('menus');
+// add_theme_support('menus');
 
+function create_post_type() {
+
+    register_post_type( 'profissionais',
+        array(
+          'labels'             => array(
+              'name'               => 'Profissionais',
+              'singular_name'      => 'Profissional',
+          ),
+          'public' => true,
+          'has_archive' => true,
+          'menu_position'      => 16,
+          'menu_icon' => 'dashicons-id-alt',
+          'supports' => array( 'title', 'editor' ),
+          // 'rewrite' => array('slug' => 'profissionais'),
+          'rewrite' => false,
+		  'query_var' => false,
+		  'publicly_queryable' => false,
+		  // 'public'  => false
+        )
+    );
+    
+}
+add_action( 'init', 'create_post_type' );
 
 ?>

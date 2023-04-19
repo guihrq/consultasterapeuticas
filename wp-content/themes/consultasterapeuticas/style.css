@@ -228,6 +228,25 @@ img {
 .profissionais p a:hover {
     color: #003369;
 }
+.profissionais-lista h3 {
+    color: #003369;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: left;
+}
+.profissionais-lista img {
+    border-radius: 15px;
+}
+.profissionais-lista p {
+    font-size: 16px;
+    padding-bottom: 40px;
+    text-align: left;
+}
+.profissionais-lista:last-child {
+    align-items: start;
+}
 .profissionais .call {
     color: #9a0000;
     font-weight: 600;
@@ -308,6 +327,16 @@ img {
     width: 490px;
     border: 2px solid #003369;
     border-radius: 5px;
+}
+.insta-carousel .flickity-prev-next-button {
+    background-color: #ffffff;
+    border: 3px solid #325d85;
+    color: #325d85;
+}
+.insta-carousel .flickity-prev-next-button:hover {
+    background-color: #ffffff;
+    border: 3px solid #003369;
+    color: #003369;
 }
 
 /* FOOTER */

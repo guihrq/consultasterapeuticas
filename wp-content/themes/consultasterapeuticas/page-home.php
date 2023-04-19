@@ -91,14 +91,27 @@
                     <h2 class="mb-4">Profissionais Envolvidos</h2>
                     <p>Psicanalistas possuem um profundo conhecimento da teoria e prática winnicottiana.</p>
                     <p class="mb-5">São representantes desse coletivo: Afrânio de Matos Ferreira (<a href="mailto:afraniodematos@gmail.com">afraniodematos@gmail.com</a>)  e Angela May (<a href="mailto:angela@may.psc.br">angela@may.psc.br</a>).</p>
-                    <p>Atualmente fazem parte do projeto:</p>
+                    <p><b>Atualmente fazem parte do projeto:</b></p>
                 </div>
-
                 <div class="col-sm-8 mx-auto pt-5 mb-4">
-                    <!-- repeater profissionais -->
+                    <div class="row">
+                    <?php
+                        $loop = new WP_Query(array('post_type' => 'profissionais',
+                                    'orderby' => 'post_date',
+                                    'order' => 'ASC',
+                                    'posts_per_page' => -1));
+
+                        while ($loop->have_posts()) : $loop->the_post(); ?>
+                            <div class="col-sm-5 mx-auto profissionais-lista">
+                                <img src="<?php the_field('foto'); ?>" alt="">
+                                <h3><?php the_title(); ?></h3>
+                                <p><?php the_field('descricao'); ?></p>
+                            </div>
+                        <?php endwhile; wp_reset_postdata(); 
+                    ?>
+                    </div>
                 </div>
-
-                <div class="col-sm-8 mx-auto pt-5 mb-4">
+                <div class="col-sm-8 mx-auto mb-4">
                     <p class="call mt-3 mb-4">Se você precisa de ajuda, clique no botão e inscreva-se para solicitar uma consulta.</p>
                 </div>
                 <div class="col-sm-8 mx-auto mb-5">
@@ -111,12 +124,16 @@
     <section class="parceiros pt-5 pb-5" id="parceiros">
         <div class="container">
             <div class="row">
-                <div class="col-sm-2">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/parceiros.png" alt="Parceiros">
-                </div>
-                <div class="col-sm-8">
-                    <h2>Parceiros</h2>
-                    <p>Pessoas, empresas e instituições que acreditam na importância do projeto e colaboram para sua manutenção e continuidade:</p>
+                <div class="col-sm-8 mx-auto pb-5">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/parceiros.png" alt="Parceiros">
+                        </div>
+                        <div class="col-sm-10">
+                            <h2>Parceiros</h2>
+                            <p>Pessoas, empresas e instituições que acreditam na importância do projeto e colaboram para sua manutenção e continuidade:</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
