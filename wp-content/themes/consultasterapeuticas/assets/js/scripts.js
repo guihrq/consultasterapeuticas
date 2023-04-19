@@ -7,6 +7,15 @@ var flkty = new Flickity( parceiros, {
     pageDots: false
 });
 
+// Carrossel Profissionais
+var profissionais = document.querySelector('.profissionais-carousel');
+var flkty = new Flickity( profissionais, {
+  // options
+  cellAlign: 'center',
+    wrapAround: true,
+    pageDots: false
+});
+
 var feed = new Instafeed({
     accessToken: 'IGQVJXdEVNZATJxR3cxaVlDM3pkOG9SRHJJLURnM0NDaEo4Um1IQThscUtpSUJ0YWtSYWtVbUE1MnAxR3dSdldqalg5Y3NWRzNwLXYxa2IzZAkFxekt4Rk55dTBCX19XRXVNOWVjSS01OG9rR0xvUlVUYwZDZD',
     limit: 6,
