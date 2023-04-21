@@ -94,35 +94,44 @@
                     <p><b>Atualmente fazem parte do projeto:</b></p>
                 </div>
                 <div class="col-sm-8 mx-auto pt-5 mb-4">
-                    <div class="row">
-                        <?php
-                            $loop = new WP_Query(array('post_type' => 'profissionais',
-                                        'orderby' => 'post_date',
-                                        'order' => 'ASC',
-                                        'posts_per_page' => -1)); ?>
-                            
-                            <?php $profissionais_carrossel_class =""; ?>
-                            <?php if (wp_is_mobile()) { ?>
-                                <?php $profissionais_carrossel_class = "profissionais-carousel"; ?>
-                            <?php } ?>
-                        <div class="col-sm-5 mx-auto profissionais-lista <?php echo $profissionais_carrossel_class; ?>">
+                    <?php $loop = new WP_Query(array('post_type' => 'profissionais',
+                                'orderby' => 'post_date',
+                                'order' => 'ASC',
+                                'posts_per_page' => -1)); ?>
+                                
+                    <?php if (!wp_is_mobile()) { ?>
+                        <div class="row">
                             <?php while ($loop->have_posts()) : $loop->the_post(); ?>
-                            <?php if (!wp_is_mobile()) { ?>
-                            <div class="col-sm-5 mx-auto profissionais-lista">
-                                <img src="<?php the_field('foto'); ?>" alt="">
-                                <h3><?php the_title(); ?></h3>
-                                <p><?php the_field('descricao'); ?></p>
-                            </div>
-                            <?php } else { ?>
-                            <div class="profissional-cell">
-                                <img src="<?php the_field('foto'); ?>" alt="">
-                                <h3><?php the_title(); ?></h3>
-                                <p><?php the_field('descricao'); ?></p>
-                            </div>
-                            <?php } ?>
-                        <?php endwhile; wp_reset_postdata(); ?>
+                                <?php if (!wp_is_mobile()) { ?>
+                                    <div class="col-sm-5 mx-auto profissionais-lista">
+                                        <img src="<?php the_field('foto'); ?>" alt="">
+                                        <h3><?php the_title(); ?></h3>
+                                        <p><?php the_field('descricao'); ?></p>
+                                    </div>
+                                <?php } else { ?>
+                                    <div class="profissional-cell">
+                                        <img src="<?php the_field('foto'); ?>" alt="">
+                                        <h3><?php the_title(); ?></h3>
+                                        <p><?php the_field('descricao'); ?></p>
+                                    </div>
+                                <?php } ?>
+                            <?php endwhile; wp_reset_postdata(); ?>
                         </div>
-                    </div>
+                    <?php } else { ?>
+                        <div class="row">
+                            <div class="col-sm-5 mx-auto profissionais-lista profissionais-carousel">
+                                <?php while ($loop->have_posts()) : $loop->the_post(); ?>
+                                
+                                    <div class="profissional-cell">
+                                        <img src="<?php the_field('foto'); ?>" alt="">
+                                        <h3><?php the_title(); ?></h3>
+                                        <p><?php the_field('descricao'); ?></p>
+                                    </div>
+                                
+                                <?php endwhile; wp_reset_postdata(); ?>
+                            </div>
+                        </div>
+                    <?php } ?>
                 </div>
                 <div class="col-sm-8 mx-auto mb-4">
                     <p class="call mt-3 mb-4">Se você precisa de ajuda, clique no botão e inscreva-se para solicitar uma consulta.</p>
