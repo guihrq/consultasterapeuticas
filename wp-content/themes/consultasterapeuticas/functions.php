@@ -53,4 +53,6 @@
     }
     add_action( 'init', 'create_post_type' );
 
+    // CONTADOR DE POSTS MAIS VISITADOS
+    
 ?>

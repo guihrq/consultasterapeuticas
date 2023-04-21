@@ -41,7 +41,7 @@
                     <h2 class="mb-4">Blog</h2>
                 </div>
                 <div class="col-sm-8 mx-auto mb-5">
-                    <!-- repeater posts 6 últimas postagens -->    
+                    <!-- repeater posts 6 últimas postagens -->
                 </div>
                 <div class="col-sm-8 mx-auto">
                     <a href="" class="btn-form-azul">Ver Todos os Posts</a>
