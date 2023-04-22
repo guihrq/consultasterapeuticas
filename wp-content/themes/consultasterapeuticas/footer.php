@@ -10,11 +10,11 @@
             </nav> -->
             <div class="footer">
                 <div class="footer-logo">
-                    <a href="">
+                    <a href="/">
                         <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/header/logo.png" alt="Logo Consultas Terapeuticas">
                     </a>
                 </div>
-                <a href="" class="btn-form">Incrições on-line</a>
+                <a href="/formulario" class="btn-form">Incrições on-line</a>
                 <div class="contato">
                     <a href="malito:consultas@consultasterapeuticas.com.br">consultas@consultasterapeuticas.com.br</a>
                     <p>Copyrights <?php echo date("Y"); ?> - Todos os direitos reservados.</p>

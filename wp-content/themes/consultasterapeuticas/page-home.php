@@ -28,27 +28,27 @@
                     <p class="call mt-3 mb-4">Se você precisa de ajuda, clique no botão e inscreva-se para solicitar uma consulta.</p>
                 </div>
                 <div class="col-sm-8 mx-auto mb-5">
-                    <a class="btn-form" href="">Solicitar Consulta</a>
+                    <a class="btn-form" href="/formulario">Solicitar Consulta</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="blog pt-5 pb-5" id="blog">
+    <!-- <section class="blog pt-5 pb-5" id="blog">
         <div class="container">
             <div class="row text-center">
                 <div class="col-sm-8 mx-auto">
                     <h2 class="mb-4">Blog</h2>
                 </div>
                 <div class="col-sm-8 mx-auto mb-5">
-                    <!-- repeater posts 6 últimas postagens -->
+                    <p>repeater posts 6 últimas postagens</p>
                 </div>
                 <div class="col-sm-8 mx-auto">
                     <a href="" class="btn-form-azul">Ver Todos os Posts</a>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="nosso-objetivo pt-5 pb-5" id="nosso-objetivo">
         <div class="container">
@@ -137,7 +137,7 @@
                     <p class="call mt-3 mb-4">Se você precisa de ajuda, clique no botão e inscreva-se para solicitar uma consulta.</p>
                 </div>
                 <div class="col-sm-8 mx-auto mb-5">
-                    <a href="" class="btn-form">Solicitar Consulta</a>
+                    <a href="/formulario" class="btn-form">Solicitar Consulta</a>
                 </div>
             </div>
         </div>

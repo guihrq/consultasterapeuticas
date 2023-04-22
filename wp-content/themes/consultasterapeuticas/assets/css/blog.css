@@ -7,11 +7,69 @@ Description: Tema desenvolvido para o site Consultas Terapeuticas
 Version: 1.0
 */
 
+/* CONTEUDO BLOG */
 .content {
     width: 100%;
     padding: 0;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
+.lista-posts h2 {
+    color: #9a0000;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.lista-posts img {
+    /* border-radius: 10px; */
+    max-width: 90%;
+    vertical-align: middle;
+}
+.lista-posts p {
+    color: #5c5c5d;
+    font-size: 14px;
+}
+.lista-posts h3 {
+    color: #5c5c5d;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 6px 0;
+}
+.lista-posts h3 a {
+    color: #5c5c5d;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.lista-posts h3 a:hover {
+    color: #9a0000;
+    text-decoration: underline;
+}
+.lista-posts cite {
+    color: #5c5c5d;
+}
+
+/* BTN PAGINACAO */
+.paginacao .btn-paginacao {
+    /* color: #ffffff !important; */
+    background-color: #003369;
+    border: none;
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 275px;
+}
+.paginacao .btn-paginacao a {
+    color: #ffffff;
+}
+.paginacao .btn-paginacao:hover {
+    background-color: #173e67;
+    color: #ffffff;
+}
+
+/* MENU LATERAL */
 .sidebar {
     min-width: 270px;
     max-width: 270px;
@@ -24,9 +82,25 @@ Version: 1.0
     border-left: 1px solid rgba(0, 0, 0, 0.05); 
 }
 .sidebar h2 {
-    color: #003369; 
-}   
-.sidebar .h6 {
+    color: #003369;
+    font-size: 1.5rem;
+}
+.sidebar ul li {
+    padding: 6px 0;
+}
+.sidebar ul li a {
+    color: #5c5c5d;
+    font-size: 16px;
+    text-decoration: none;
+}
+.sidebar ul li a:hover {
+    color: #9a0000;
+    text-decoration: underline;
+}
+.categorias h2 {
+    padding: 25px 0;
+}
+/* .sidebar .h6 {
     color: #fff; 
 }
 .sidebar.active {
@@ -62,4 +136,4 @@ Version: 1.0
 .sidebar ul li.active > a {
     background: transparent;
     color: #fc7fb2; 
-}
+} */

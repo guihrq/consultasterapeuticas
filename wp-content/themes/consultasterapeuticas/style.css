@@ -365,3 +365,11 @@ footer {
 .img-topo {
     width: 40px;
 }
+
+/* FORMULÁRIO */
+.formulario {
+    background: url(assets/images/logo-fundo.png), #6fa6d0;;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #003369;
+}

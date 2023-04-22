@@ -1,10 +1,11 @@
+<!-- TEMPLATE POSTS BLOG -->
 <?php get_header(); ?>
 
 <section class="container d-md-flex align-items-stretch">
         <div class="content">
-            <p><?php echo date("d/m/Y"); ?></p>
-            <h1><?php the_title(); ?></h1>
             <div class="container">
+                <p><?php echo date("d/m/Y"); ?></p>
+                <h1><?php the_title(); ?></h1>
                 <div class="row">
                     <?php if(have_posts()) : while (have_posts()) : the_post(); ?>
                             <div class="row">
