@@ -5,7 +5,7 @@
         <div class="content">
             <div class="container">
                 <h2>Blog</h2>
-                <div class="row pt-4">
+                <div class="row pt-5">
                     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                         <?php
                             global $post;

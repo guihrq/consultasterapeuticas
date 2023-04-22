@@ -84,6 +84,7 @@ Version: 1.0
 .sidebar h2 {
     color: #003369;
     font-size: 1.5rem;
+    font-weight: 600;
 }
 .sidebar ul li {
     padding: 6px 0;
@@ -97,43 +98,81 @@ Version: 1.0
     color: #9a0000;
     text-decoration: underline;
 }
+
+/* BLOG POST INTERNA */
+.interna-post h2 {
+    color: #9a0000;
+    font-size: 2.5rem;
+    font-weight: 600;
+    /* padding: 6px 0; */
+}
+.interna-post h1 {
+    color: #003369;
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 6px 0;
+}
+.interna-post .conteudo p {
+    color: #003369;
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+.interna-post .conteudo h1 {
+    color: #9a0000;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 6px 0;
+}
+.interna-post .conteudo h2 {
+    color: #9a0000;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 6px 0;
+}
+.interna-post .conteudo h3 {
+    color: #003369;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 6px 0;
+}
+.interna-post .conteudo a {
+    color: #003369;
+    font-size: 18px;
+    text-decoration: underline;
+    padding: 6px 0;
+}
+.interna-post .conteudo a:hover {
+    color: #9a0000;
+    text-decoration: underline;
+}
+.interna-post .conteudo ul,
+.interna-post .conteudo ol {
+    padding-bottom: 25px;
+}
+.interna-post .conteudo ul li,
+.interna-post .conteudo ol li {
+    color: #003369;
+    font-size: 18px;
+    line-height: 1.9; 
+}
+.interna-post .conteudo ul li a,
+.interna-post .conteudo ol li a {
+    font-size: 18px;
+    color: #003369;
+    text-decoration: underline;
+    padding: 6px 0;
+}
+.interna-post .conteudo ul li a:hover,
+.interna-post .conteudo ol li a:hover{
+    color: #9a0000;
+    text-decoration: underline;
+}
+.interna-post .conteudo img {
+    margin: 25px 0px;
+}
 .categorias h2 {
+    color: #003369;
+    font-size: 1.5rem;
+    font-weight: 600;
     padding: 25px 0;
 }
-/* .sidebar .h6 {
-    color: #fff; 
-}
-.sidebar.active {
-    margin-left: -270px; 
-}
-.sidebar ul.components {
-    padding: 0; 
-}
-.sidebar ul li {
-    font-size: 14px; 
-}
-.sidebar ul li > ul {
-    margin-left: 10px; 
-}
-.sidebar ul li > ul li {
-    font-size: 13px; 
-}
-.sidebar ul li > ul li a {
-    border-bottom: 1px solid transparent; 
-}
-.sidebar ul li > ul li a span {
-    color: #000; 
-}
-.sidebar ul li a {
-    padding: 10px 0;
-    display: block;
-    color: black;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05); 
-}
-.sidebar ul li a span {
-    color: #fff; 
-}
-.sidebar ul li.active > a {
-    background: transparent;
-    color: #fc7fb2; 
-} */
