@@ -37,7 +37,7 @@
                     <li><a href="/#coletivo">O Coletivo</a></li>
                     <li><a href="/blog">Blog</a></li>
                     <li><a href="/#nossa-historia">Nossa História</a></li>
-                    <li><a href="#profissionais">Profissionais</a></li>
+                    <li><a href="/#profissionais">Profissionais</a></li>
                 </ul>
                 <!-- <?php 
                     // $args = array (
