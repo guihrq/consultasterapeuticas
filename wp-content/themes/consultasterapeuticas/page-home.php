@@ -34,21 +34,38 @@
         </div>
     </section>
 
-    <!-- <section class="blog pt-5 pb-5" id="blog">
+    <section class="blog pt-5 pb-5" id="blog">
         <div class="container">
-            <div class="row text-center">
-                <div class="col-sm-8 mx-auto">
+            <div class="row">
+                <div class="col-sm-8 mx-auto text-center">
                     <h2 class="mb-4">Blog</h2>
                 </div>
-                <div class="col-sm-8 mx-auto mb-5">
-                    <p>repeater posts 6 últimas postagens</p>
+                <div class="col-sm-10 mx-auto mb-5">
+                    <div class="row">
+                    <?php
+                    $arguments = array("numberposts" => 6);
+                    $posts = get_posts($arguments);
+                    foreach ($posts as $post) { 
+                        $post_slug = $post->post_name; ?>  
+                        <div class="col-sm-4 mx-auto py-3">
+                            <div class="col-sm-12">
+                                <img src="<?php the_field('post_thumb'); ?>" alt="">
+                            </div>
+                            <div class="col-sm-12 px-1 pt-1">
+                                <p class="px-1"><?php echo date("d/m/Y"); ?></p>
+                                <h3><a href="/blog/<?php echo $post_slug; ?>"><?php the_title(); ?></a></h3>
+                                <cite><b>por:</b> <?php the_field('citacao'); ?></cite>
+                            </div>
+                        </div>
+                    <?php } ?>
+                    </div>
                 </div>
-                <div class="col-sm-8 mx-auto">
-                    <a href="" class="btn-form-azul">Ver Todos os Posts</a>
+                <div class="col-sm-8 mx-auto text-center">
+                    <a href="/blog" class="btn-form-azul">Ver Todos os Posts</a>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
     <section class="nosso-objetivo pt-5 pb-5" id="nosso-objetivo">
         <div class="container">

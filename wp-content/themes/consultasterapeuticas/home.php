@@ -32,7 +32,6 @@
 	            <ul class="list-unstyled components mb-5">
                     <?php 
                     $categorias = get_categories();
-                    // echo var_dump($categorias);
                     foreach ($categorias as $categoria) { ?>
                         <li><a href="<?php echo $categoria->slug; ?>"><span class="fa fa-chevron-right mr-2"></span><?php echo $categoria->name; ?> (<?php echo $categoria->count; ?>)</a></li> 
                     <?php } ?>
@@ -51,11 +50,8 @@
         <div class="content">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 pt-5 mb-5">
-                        <p class="btn-paginacao"><?php next_posts_link( '< Posts Antigos' ); ?></p>
-                    </div>
-                    <div class="col-sm-6 pt-5 mb-5">
-                        <p class="btn-paginacao"><?php previous_posts_link( 'Posts Recentes >' ); ?></p>
+                    <div class="col-sm-12 pt-5 mb-5 text-center">
+                        <?php if (function_exists('pagination_funtion')) pagination_funtion(); ?>
                     </div>
                 </div>
             </div>

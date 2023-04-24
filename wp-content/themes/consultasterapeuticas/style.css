@@ -126,6 +126,9 @@ img {
 }
 
 /* COLETIVO */
+.coletivo {
+    background-color: #f2f2f2;
+}
 .coletivo h2 {
     color: #9a0000;
     font-size: 2rem;
@@ -148,11 +151,30 @@ img {
     width: 275px;
 }
 .coletivo .btn-form:hover {
-    background-color: #bb3f3f;
+    background-color: #003369;
     color: #ffffff;
 }
 
 /* BLOG */
+.blog h3 {
+    color: #5c5c5d;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 6px 0;
+}
+.blog h3 a {
+    color: #5c5c5d;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.blog h3 a:hover {
+    color: #9a0000;
+    text-decoration: underline;
+}
+.blog cite {
+    color: #5c5c5d;
+}
 .blog .btn-form-azul {
     color: #ffffff !important;
     background-color: #003369;
@@ -166,7 +188,7 @@ img {
     width: 275px;
 }
 .blog .btn-form-azul:hover {
-    background-color: #173e67;
+    background-color: #9a0000;
     color: #ffffff;
 }
 .blog h2 {

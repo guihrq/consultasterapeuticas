@@ -11,7 +11,6 @@ Version: 1.0
 .content {
     width: 100%;
     padding: 0;
-    /* min-height: 100vh; */
 }
 .lista-posts h2 {
     color: #9a0000;
@@ -19,7 +18,6 @@ Version: 1.0
     font-weight: 600;
 }
 .lista-posts img {
-    /* border-radius: 10px; */
     max-width: 90%;
     vertical-align: middle;
 }
@@ -45,28 +43,6 @@ Version: 1.0
 }
 .lista-posts cite {
     color: #5c5c5d;
-}
-
-/* BTN PAGINACAO */
-.paginacao .btn-paginacao {
-    /* color: #ffffff !important; */
-    background-color: #003369;
-    border: none;
-    border-radius: 25px;
-    display: inline-block;
-    font-size: 18px;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    width: 275px;
-}
-.paginacao .btn-paginacao a {
-    color: #ffffff;
-}
-.paginacao .btn-paginacao:hover {
-    background-color: #173e67;
-    color: #ffffff;
 }
 
 /* MENU LATERAL */
@@ -104,7 +80,6 @@ Version: 1.0
     color: #9a0000;
     font-size: 2.5rem;
     font-weight: 600;
-    /* padding: 6px 0; */
 }
 .interna-post h1 {
     color: #003369;
@@ -175,4 +150,30 @@ Version: 1.0
     font-size: 1.5rem;
     font-weight: 600;
     padding: 25px 0;
+}
+
+/** =Paginate links Styles
+ ******************************************* **/
+.page-numbers li {
+    display: inline-block;
+    margin-left: 3px; 
+}
+.page-numbers a, .page-numbers .dots, .page-numbers .next, .page-numbers .prev {
+    color: #ffffff;
+    padding: 5px 10px;
+    background: #003369;
+    text-decoration: none;
+    background-color: #003369;
+    border: none;
+    border-radius: 25px;
+}
+.page-numbers a:hover, .page-numbers .next:hover, .page-numbers .prev:hover {
+    background: #9a0000;
+}
+.page-numbers .current {
+    padding: 5px 10px;
+    background: #9a0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px; 
 }

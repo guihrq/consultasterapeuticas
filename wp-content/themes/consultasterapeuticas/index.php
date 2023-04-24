@@ -1,5 +1,5 @@
 <!-- TEMPLATE POSTS BLOG -->
-<?php get_header(); ?>
+<?php get_header('blog'); ?>
 
 <section class="container d-md-flex align-items-stretch interna-post">
         <div class="content">
@@ -37,7 +37,6 @@
 	            <ul class="list-unstyled components mb-5">
                     <?php 
                     $categorias = get_categories();
-                    // echo var_dump($categorias);
                     foreach ($categorias as $categoria) { ?>
                         <li><a href="<?php echo $categoria->slug; ?>"><span class="fa fa-chevron-right mr-2"></span><?php echo $categoria->name; ?> (<?php echo $categoria->count; ?>)</a></li> 
                     <?php } ?>
