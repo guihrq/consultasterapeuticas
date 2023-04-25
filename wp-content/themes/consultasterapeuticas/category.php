@@ -4,7 +4,7 @@
     <section class="container d-md-flex align-items-stretch lista-posts">
         <div class="content">
             <div class="container">
-                <h2>Blog</h2>
+                <h2><?php single_term_title(); ?></h2>
                 <div class="row pt-5">
                     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                         <?php
@@ -25,7 +25,6 @@
                 </div>
             </div>
         </div>
-
         <?php get_sidebar(); ?>
     </section>
     

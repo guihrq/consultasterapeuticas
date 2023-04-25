@@ -3,6 +3,12 @@
 ?>
 
 <?php get_header(); ?>
+
+    <!-- Instagram -->
+    <script>
+        const IG_TOKEN="<?= get_field("token_instagram"); ?>";
+    </script>
+
 <?php if(have_posts()) : while (have_posts()) : the_post(); ?>
 
     <section class="banner">

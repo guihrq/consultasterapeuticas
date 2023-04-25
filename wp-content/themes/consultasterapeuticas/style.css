@@ -7,9 +7,6 @@ Description: Tema desenvolvido para o site Consultas Terapeuticas
 Version: 1.0
 */
 
-@import 'css/blog.css';
-@import 'css/main.css';
-
 /* RESET */
 * {
     box-sizing: border-box;
