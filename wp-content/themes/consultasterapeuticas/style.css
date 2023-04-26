@@ -104,7 +104,6 @@ img {
 
 /* BANNER */
 .banner {
-    background: url(assets/images/banners/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -192,6 +191,9 @@ img {
     color: #003369;
     font-size: 2rem;
     font-weight: 600;
+}
+.blog-cell {
+    margin: 0 6px;
 }
 
 /* NOSSO OBJETIVO */
@@ -283,6 +285,9 @@ img {
     margin-top: 40px;
     padding-left: 60px;
     padding-right: 60px;
+}
+.profissional-cell {
+    margin: 0 10px;
 }
 
 /* PARCEIROS */

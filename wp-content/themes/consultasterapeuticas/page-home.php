@@ -11,7 +11,11 @@
 
 <?php if(have_posts()) : while (have_posts()) : the_post(); ?>
 
-    <section class="banner">
+        <?php if (!wp_is_mobile()) { ?>
+            <section class="banner" style="background: url(<?php echo get_field('banner_desktop'); ?>);background-repeat: no-repeat; background-size: cover; background-position: center; display: flex; height: 440px; width: 100%;">
+        <?php } else { ?>
+            <section class="banner" style="background: url(<?php echo get_field('banner_mobile'); ?>);background-repeat: no-repeat; background-size: cover; background-position: center; display: flex; height: 345px; width: 100%;">
+        <?php } ?>
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
@@ -51,18 +55,36 @@
                     <?php
                     $arguments = array("numberposts" => 6);
                     $posts = get_posts($arguments);
-                    foreach ($posts as $post) { 
-                        $post_slug = $post->post_name; ?>  
-                        <div class="col-sm-4 mx-auto py-3">
-                            <div class="col-sm-12">
-                                <img src="<?php the_field('post_thumb'); ?>" alt="">
+                        if (!wp_is_mobile()) { 
+                            foreach ($posts as $post) { 
+                                $post_slug = $post->post_name; ?> 
+                                <div class="col-sm-4 mx-auto py-3">
+                                    <div class="col-sm-12">
+                                        <img src="<?php the_field('post_thumb'); ?>" alt="">
+                                    </div>
+                                    <div class="col-sm-12 px-1 pt-1">
+                                        <p class="px-1"><?php echo date("d/m/Y"); ?></p>
+                                        <h3><a href="/blog/<?php echo $post_slug; ?>"><?php the_title(); ?></a></h3>
+                                        <cite><b>por:</b> <?php the_field('citacao'); ?></cite>
+                                    </div>
+                                </div>
+                            <?php } ?>
+                        <?php } else { ?>
+                            <div class="col-sm-4 mx-auto py-3 blog-carousel">
+                            <?php foreach ($posts as $post) { 
+                                $post_slug = $post->post_name; ?>
+                                <div class="blog-cell">
+                                    <div class="col-sm-12">
+                                        <img src="<?php the_field('post_thumb'); ?>" alt="">
+                                    </div>
+                                    <div class="col-sm-12 px-1 pt-1">
+                                        <p class="px-1"><?php echo date("d/m/Y"); ?></p>
+                                        <h3><a href="/blog/<?php echo $post_slug; ?>"><?php the_title(); ?></a></h3>
+                                        <cite><b>por:</b> <?php the_field('citacao'); ?></cite>
+                                    </div>
+                                </div>
+                            <?php } ?>
                             </div>
-                            <div class="col-sm-12 px-1 pt-1">
-                                <p class="px-1"><?php echo date("d/m/Y"); ?></p>
-                                <h3><a href="/blog/<?php echo $post_slug; ?>"><?php the_title(); ?></a></h3>
-                                <cite><b>por:</b> <?php the_field('citacao'); ?></cite>
-                            </div>
-                        </div>
                     <?php } ?>
                     </div>
                 </div>
@@ -121,7 +143,7 @@
                                 'orderby' => 'post_date',
                                 'order' => 'ASC',
                                 'posts_per_page' => -1)); ?>
-                                
+
                     <?php if (!wp_is_mobile()) { ?>
                         <div class="row">
                             <?php while ($loop->have_posts()) : $loop->the_post(); ?>
@@ -171,10 +193,10 @@
             <div class="row">
                 <div class="col-sm-8 mx-auto pb-5">
                     <div class="row">
-                        <div class="col-sm-2">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/parceiros.png" alt="Parceiros">
+                        <div class="col-sm-2 col-4">
+                            <img class="img-parceiros" src="<?php echo get_template_directory_uri(); ?>/assets/images/parceiros.png" alt="Parceiros">
                         </div>
-                        <div class="col-sm-10">
+                        <div class="col-sm-10 col-8">
                             <h2>Parceiros</h2>
                             <p>Pessoas, empresas e instituições que acreditam na importância do projeto e colaboram para sua manutenção e continuidade:</p>
                         </div>

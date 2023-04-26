@@ -1,7 +1,19 @@
-// Carrossel Parceiros
-var parceiros = document.querySelector('.parceiros-carousel');
-if (parceiros != null) {
-  var flkty = new Flickity( parceiros, {
+// Carrossel Blog Mobile
+var blog = document.querySelector('.blog-carousel');
+if (blog != null) {
+  var flkty = new Flickity( blog, {
+    // options
+    cellAlign: 'center',
+      wrapAround: true,
+      prevNextButtons: false,
+      pageDots: true
+  });
+}
+
+// Carrossel Profissionais Mobile
+var profissionais = document.querySelector('.profissionais-carousel');
+if (profissionais != null) {
+  var flkty = new Flickity( profissionais, {
     // options
     cellAlign: 'center',
       wrapAround: true,
@@ -9,10 +21,10 @@ if (parceiros != null) {
   });
 }
 
-// Carrossel Profissionais
-var profissionais = document.querySelector('.profissionais-carousel');
-if (profissionais != null) {
-  var flkty = new Flickity( profissionais, {
+// Carrossel Parceiros
+var parceiros = document.querySelector('.parceiros-carousel');
+if (parceiros != null) {
+  var flkty = new Flickity( parceiros, {
     // options
     cellAlign: 'center',
       wrapAround: true,
