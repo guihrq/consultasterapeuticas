@@ -8,7 +8,11 @@
                     // wp_nav_menu($args);
                 ?>
             </nav> -->
-            <div class="footer">
+        <?php if (!wp_is_mobile()) { ?>
+            <div class="footer" style="width: 80%;">
+        <?php } else { ?>
+            <div class="footer" style="width: 100%;">
+        <?php } ?>
                 <div class="footer-logo">
                     <a href="/">
                         <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/header/logo.png" alt="Logo Consultas Terapeuticas">

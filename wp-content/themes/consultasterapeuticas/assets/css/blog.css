@@ -81,6 +81,13 @@ Version: 1.0
     font-size: 2.5rem;
     font-weight: 600;
 }
+.interna-post h2 a {
+    color: #9a0000;
+}
+.interna-post h2 a:hover {
+    color: #003369;
+    text-decoration: underline;
+}
 .interna-post h1 {
     color: #003369;
     font-size: 3rem;

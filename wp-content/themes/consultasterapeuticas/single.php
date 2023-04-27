@@ -4,7 +4,7 @@
 <section class="container d-md-flex align-items-stretch interna-post">
         <div class="content">
             <div class="container">
-                <h2>Blog</h2>
+                <h2><a href="/blog">Blog</a></h2>
                 <div class="row pt-5">
                     <p><?php echo date("d/m/Y"); ?></p>
                     <div class="col-sm-12 pt-2">

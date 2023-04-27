@@ -1,4 +1,4 @@
-<!-- TEMPLATE BLOG -->
+<!-- TEMPLATE CATEGORIAS BLOG -->
 <?php get_header('blog'); ?>
 
     <section class="container d-md-flex align-items-stretch lista-posts">

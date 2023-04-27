@@ -18,12 +18,12 @@
         <?php } ?>
         <div class="container">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-7">
                 </div>
-                <div class="col-sm-6 pt-5 mt-4 texto-intro">
+                <div class="col-sm-5 pt-2 mt-4 texto-intro">
                     <h1>Consultas Terapêuticas<br>on-line e gratuitas</h1>
-                    <p>Atendimento psicológico, em formato de Consultas Terapêuticas, para pessoas que estejam atravessando situações de crises, momentos difíceis, sofrimentos, inseguranças, ansiedades e angústias.</p>
-                    <p>Atendimento gratuito, on-line, uma a cinco consultas.</p>
+                    <p>Destinado à pessoas que estejam atravessando situações de crise, momentos difíceis, sofrimentos psicológicos, insegurança, medos, ansiedades e angústias, causados por alguma problemática pessoal, social ou ambiental. Trata-se de uma intervenção psicológica de curta duração.</p>
+                    <p>Atendimento psicológico gratuito e on-line, de uma a cinco consultas.</p>
                 </div>
             </div>
         </div>
@@ -32,12 +32,12 @@
     <section class="coletivo" id="coletivo">
         <div class="container">
             <div class="row text-center"> 
-                <div class="col-sm-8 mx-auto pt-5 mb-4">
+                <div class="col-sm-12 mx-auto pt-5 mb-4">
                     <h2 class="mb-4">O Coletivo</h2>
                     <p>O Coletivo se inspirou nas <span>Consultas Terapêuticas de Donald Woods Winnicott</span>, a partir de sua longa e rica experiência como pediatra, psicanalista e psiquiatra. Trata-se de um dispositivo terapêutico de grande potência, nas situações de crises, no qual o analista oferece uma hospedagem, um  espaço terapêutico, onde <span>um encontro e uma comunicação verdadeira e significativa</span> possa ocorrer, elaborando seus sofrimentos e <span>dando continuidade a sua linha de vida</span>.</p>
                     <p class="call mt-3 mb-4">Se você precisa de ajuda, clique no botão e inscreva-se para solicitar uma consulta.</p>
                 </div>
-                <div class="col-sm-8 mx-auto mb-5">
+                <div class="col-sm-12 mx-auto mb-5">
                     <a class="btn-form" href="/formulario">Solicitar Consulta</a>
                 </div>
             </div>
@@ -47,10 +47,10 @@
     <section class="blog pt-5 pb-5" id="blog">
         <div class="container">
             <div class="row">
-                <div class="col-sm-8 mx-auto text-center">
+                <div class="col-sm-12 mx-auto text-center">
                     <h2 class="mb-4">Blog</h2>
                 </div>
-                <div class="col-sm-10 mx-auto mb-5">
+                <div class="col-sm-12 mx-auto mb-5">
                     <div class="row">
                     <?php
                     $arguments = array("numberposts" => 6);
@@ -58,7 +58,7 @@
                         if (!wp_is_mobile()) { 
                             foreach ($posts as $post) { 
                                 $post_slug = $post->post_name; ?> 
-                                <div class="col-sm-4 mx-auto py-3">
+                                <div class="col-sm-4 mx-auto py-3 itens">
                                     <div class="col-sm-12">
                                         <img src="<?php the_field('post_thumb'); ?>" alt="">
                                     </div>
@@ -98,9 +98,9 @@
     <section class="nosso-objetivo pt-5 pb-5" id="nosso-objetivo">
         <div class="container">
             <div class="row">
-                <div class="col-sm-8 mx-auto">
+                <div class="col-sm-12 mx-auto">
                     <h2 class="mb-3">Nosso Objetivo</h2>
-                    <p>Oferecer Consultas Terapêuticas on-line às pessoas, que estejam atravessando situações de crise: momentos difíceis da sua vida, sofrimentos psicológicos, inseguranças, medos, ansiedades e angústias, visando acolher, oferecer continência e suporte psicológico para que as pessoas possam elaborar seus sofrimentos e dar continuidade a sua linha de vida.</p>
+                    <p>Oferecer Consultas Terapêuticas on-line às pessoas, que estejam atravessando situações de crise: momentos difíceis da sua vida, sofrimentos psicológicos, inseguranças, medos, ansiedades e angústias, visando acolher, oferecer continência e suporte psicológico para que as pessoas possam elaborar seus sofrimentos e dar continuidade a sua vida.</p>
                 </div>
             </div>
         </div>    
@@ -109,7 +109,7 @@
     <section class="nossa-historia pt-5 pb-5" id="nossa-historia">
         <div class="container">
             <div class="row">
-                <div class="col-sm-8 mx-auto">
+                <div class="col-sm-12 mx-auto">
                     <h2 class="mb-3">Nossa História</h2>
                     <h3 class="mb-3">O Início</h3>
                     <p class="mb-1">O projeto foi elaborado, dirigido e realizado por um grupo de psicanalistas do Espaço Potencial Winnicott do Instituto Sedes Sapientiae e integrou-se aos Projetos da Clínica deste Instituto, durante o período da Pandemia. Agora em 2023, não está mais vinculado ao ISS, funciona como um Coletivo independente.</p>
@@ -132,13 +132,13 @@
     <section class="profissionais" id="profissionais">
         <div class="container">
             <div class="row text-center"> 
-                <div class="col-sm-7 mx-auto pt-5 mb-4">
+                <div class="col-sm-12 mx-auto pt-5 mb-4">
                     <h2 class="mb-4">Profissionais Envolvidos</h2>
                     <p>Psicanalistas possuem um profundo conhecimento da teoria e prática winnicottiana.</p>
                     <p class="mb-5">São representantes desse coletivo: Afrânio de Matos Ferreira (<a href="mailto:afraniodematos@gmail.com">afraniodematos@gmail.com</a>)  e Angela May (<a href="mailto:angela@may.psc.br">angela@may.psc.br</a>).</p>
                     <p><b>Atualmente fazem parte do projeto:</b></p>
                 </div>
-                <div class="col-sm-8 mx-auto pt-5 mb-4">
+                <div class="col-sm-12 mx-auto pt-5 mb-4">
                     <?php $loop = new WP_Query(array('post_type' => 'profissionais',
                                 'orderby' => 'post_date',
                                 'order' => 'ASC',
@@ -148,7 +148,7 @@
                         <div class="row">
                             <?php while ($loop->have_posts()) : $loop->the_post(); ?>
                                 <?php if (!wp_is_mobile()) { ?>
-                                    <div class="col-sm-5 mx-auto profissionais-lista">
+                                    <div class="col-sm-5 mx-auto profissionais-lista pt-3">
                                         <img src="<?php the_field('foto'); ?>" alt="">
                                         <h3><?php the_title(); ?></h3>
                                         <p><?php the_field('descricao'); ?></p>
@@ -204,18 +204,25 @@
                 </div>
             </div>
             <div class="row">
-                <div class="parceiros-carousel" data-flickity='{"autoPlay": true}'>
-                    <?php
-                        $loop = new WP_Query(array('post_type' => 'parceiros',
-                                    'orderby' => 'post_date',
-                                    'order' => 'ASC',
-                                    'posts_per_page' => -1));
-                        while ($loop->have_posts()) : $loop->the_post(); ?>
-                            
-                                <div class="parceiros-cell" style="background-image: url(<?php the_field('imagem_parceiro'); ?>);"></div>
-                            
-                        <?php endwhile; wp_reset_postdata(); 
-                    ?>
+                <div class="col-sm-12 mx-auto pb-5">
+
+                    <div class="parceiros-carousel" data-flickity='{"autoPlay": true}'>
+                        <?php
+                            $loop = new WP_Query(array('post_type' => 'parceiros',
+                                        'orderby' => 'post_date',
+                                        'order' => 'ASC',
+                                        'posts_per_page' => -1));
+                            while ($loop->have_posts()) : $loop->the_post(); ?>
+
+                                <div class="parceiros-cell">
+                                    <!-- <div class="parceiros-item" style="background-image: url(<?php // the_field('imagem_parceiro'); ?>);background-repeat: no-repeat; background-position: center;"></div> -->
+                                    <img src="<?php the_field('imagem_parceiro'); ?>" alt="">
+                                    <h3><?php the_title(); ?></h3>
+                                </div>
+                                
+                            <?php endwhile; wp_reset_postdata(); 
+                        ?>
+                    </div>
                 </div>
             </div>
         </div>

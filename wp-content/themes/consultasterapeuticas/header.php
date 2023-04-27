@@ -27,7 +27,11 @@
 </head>
 <body>
     <header class="menu-bg" id="topo">
-        <div class="menu">
+    <?php if (!wp_is_mobile()) { ?>
+        <div class="menu" style="width: 80%;">
+    <?php } else { ?>
+        <div class="menu" style="width: 100%;">
+    <?php } ?>
             <div class="menu-logo">
                 <a href="/">
                     <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/header/logo.png" alt="Logo Consultas Terapeuticas">
