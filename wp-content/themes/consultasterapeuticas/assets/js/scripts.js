@@ -29,9 +29,11 @@ if (parceiros != null) {
     cellAlign: 'center',
       wrapAround: true,
       pageDots: false
+      // groupCells: 2
   });
 }
 
+// Integração Instagram
 if(typeof(IG_TOKEN) !== "undefined"){
   var feed = new Instafeed({
       accessToken: IG_TOKEN,
@@ -50,3 +52,18 @@ if(typeof(IG_TOKEN) !== "undefined"){
       });
   feed.run();
 }
+
+// Botão Voltar para o Topo
+var btn = $('#button');
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 600) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});

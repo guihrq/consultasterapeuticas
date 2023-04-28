@@ -13,7 +13,7 @@
                         ?>
                         <div class="col-sm-6 pb-3 pt-1">
                             <div class="col-sm-10">
-                                <img src="<?php the_field('post_thumb'); ?>" alt="">
+                                <img src="<?php the_field('banner_post'); ?>" alt="">
                             </div>
                             <div class="col-sm-10 px-1 pt-1">
                                 <p class="px-1"><?php echo date("d/m/Y"); ?></p>

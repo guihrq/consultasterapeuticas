@@ -23,10 +23,9 @@
                     <a href="malito:consultas@consultasterapeuticas.com.br">consultas@consultasterapeuticas.com.br</a>
                     <p>Copyrights <?php echo date("Y"); ?> - Todos os direitos reservados.</p>
                 </div>
+                <!-- Back to top button -->
                 <div class="img-topo">
-                    <a href="#topo">
-                        <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/images/seta-topo.png" alt="Seta Topo">
-                    </a>
+                    <img id="button" src="<?php echo get_template_directory_uri(); ?>/assets/images/seta-topo.png" alt="Seta Topo">
                 </div>
             </div>
         </footer>
@@ -40,6 +39,8 @@
         <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
         <!-- Instafeed -->
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/instafeed/instafeed.min.js"></script>
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
         <!-- Scripts -->
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/scripts.js"></script>
     </body>

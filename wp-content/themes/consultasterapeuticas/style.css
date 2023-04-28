@@ -114,9 +114,9 @@ p {
     width: 100%;
 }
 .texto-intro h1 {
-    font-size: 2.3rem;
+    font-size: 1.9rem;
     color: #003369;
-    text-shadow: 2px 2px 2px rgba(2, 67, 138, 0.65);
+    /* text-shadow: 2px 2px 2px rgba(2, 67, 138, 0.65); */
 }
 .texto-intro p {
     color: #003369;
@@ -316,7 +316,7 @@ p {
 .parceiros-cell {
     counter-increment: parceiros-cell;
     min-width: 100%;
-    text-align: center
+    text-align: center;
 }
 .parceiros-cell img {
     display: block;
@@ -418,3 +418,30 @@ footer {
     background-position: center;
     color: #003369;
 }
+
+#button {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #f2f2f2;
+    border: 3px solid #325d85;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }

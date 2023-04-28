@@ -18,12 +18,11 @@
         <?php } ?>
         <div class="container">
             <div class="row">
-                <div class="col-sm-7">
-                </div>
-                <div class="col-sm-5 pt-2 mt-4 texto-intro">
-                    <h1>Consultas Terapêuticas<br>on-line e gratuitas</h1>
-                    <p>Destinado à pessoas que estejam atravessando situações de crise, momentos difíceis, sofrimentos psicológicos, insegurança, medos, ansiedades e angústias, causados por alguma problemática pessoal, social ou ambiental. Trata-se de uma intervenção psicológica de curta duração.</p>
-                    <p>Atendimento psicológico gratuito e on-line, de uma a cinco consultas.</p>
+                
+                <div class="col-sm-12 pt-2 mt-4 texto-intro d-flex align-items-end flex-column">
+                    <h1 class="p-2" style="width: 490px;">Consultas Terapêuticas<br>on-line e gratuitas</h1>
+                    <p class="p-2" style="width: 490px;">Destinado à pessoas que estejam atravessando situações de crise, momentos difíceis, sofrimentos psicológicos, insegurança, medos, ansiedades e angústias, causados por alguma problemática pessoal, social ou ambiental. Trata-se de uma intervenção psicológica de curta duração.</p>
+                    <p class="p-2" style="width: 490px;">Atendimento psicológico gratuito e on-line, de uma a cinco consultas.</p>
                 </div>
             </div>
         </div>
@@ -60,7 +59,7 @@
                                 $post_slug = $post->post_name; ?> 
                                 <div class="col-sm-4 mx-auto py-3 itens">
                                     <div class="col-sm-12">
-                                        <img src="<?php the_field('post_thumb'); ?>" alt="">
+                                        <img src="<?php the_field('banner_post'); ?>" alt="">
                                     </div>
                                     <div class="col-sm-12 px-1 pt-1">
                                         <p class="px-1"><?php echo date("d/m/Y"); ?></p>
@@ -70,12 +69,12 @@
                                 </div>
                             <?php } ?>
                         <?php } else { ?>
-                            <div class="col-sm-4 mx-auto py-3 blog-carousel">
+                            <div class="col-sm-4 mx-auto py-3 blog-carousel" data-flickity='{"autoPlay": true}'>
                             <?php foreach ($posts as $post) { 
                                 $post_slug = $post->post_name; ?>
                                 <div class="blog-cell">
                                     <div class="col-sm-12">
-                                        <img src="<?php the_field('post_thumb'); ?>" alt="">
+                                        <img src="<?php the_field('banner_post'); ?>" alt="">
                                     </div>
                                     <div class="col-sm-12 px-1 pt-1">
                                         <p class="px-1"><?php echo date("d/m/Y"); ?></p>
@@ -149,7 +148,7 @@
                             <?php while ($loop->have_posts()) : $loop->the_post(); ?>
                                 <?php if (!wp_is_mobile()) { ?>
                                     <div class="col-sm-5 mx-auto profissionais-lista pt-3">
-                                        <img src="<?php the_field('foto'); ?>" alt="">
+                                        <img src="<?php the_field('foto'); ?>" width="300" alt="">
                                         <h3><?php the_title(); ?></h3>
                                         <p><?php the_field('descricao'); ?></p>
                                     </div>
@@ -164,7 +163,7 @@
                         </div>
                     <?php } else { ?>
                         <div class="row">
-                            <div class="col-sm-5 mx-auto profissionais-lista profissionais-carousel">
+                            <div class="col-sm-5 mx-auto profissionais-lista profissionais-carousel" data-flickity='{"autoPlay": true}'>
                                 <?php while ($loop->have_posts()) : $loop->the_post(); ?>
                                 
                                     <div class="profissional-cell">
@@ -178,7 +177,7 @@
                         </div>
                     <?php } ?>
                 </div>
-                <div class="col-sm-8 mx-auto mb-4">
+                <div class="col-sm-12 mx-auto mb-4">
                     <p class="call mt-3 mb-4">Se você precisa de ajuda, clique no botão e inscreva-se para solicitar uma consulta.</p>
                 </div>
                 <div class="col-sm-8 mx-auto mb-5">
@@ -205,7 +204,6 @@
             </div>
             <div class="row">
                 <div class="col-sm-12 mx-auto pb-5">
-
                     <div class="parceiros-carousel" data-flickity='{"autoPlay": true}'>
                         <?php
                             $loop = new WP_Query(array('post_type' => 'parceiros',
@@ -213,17 +211,13 @@
                                         'order' => 'ASC',
                                         'posts_per_page' => -1));
                             while ($loop->have_posts()) : $loop->the_post(); ?>
-
                                 <div class="parceiros-cell">
-                                    <!-- <div class="parceiros-item" style="background-image: url(<?php // the_field('imagem_parceiro'); ?>);background-repeat: no-repeat; background-position: center;"></div> -->
                                     <img src="<?php the_field('imagem_parceiro'); ?>" alt="">
                                     <h3><?php the_title(); ?></h3>
                                 </div>
-                                
-                            <?php endwhile; wp_reset_postdata(); 
-                        ?>
+                            <?php endwhile; wp_reset_postdata(); ?>
                     </div>
-                </div>
+                </div> 
             </div>
         </div>
     </section>
