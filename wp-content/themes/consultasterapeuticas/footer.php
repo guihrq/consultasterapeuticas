@@ -20,7 +20,7 @@
                 </div>
                 <a href="/formulario" class="btn-form">Incrições on-line</a>
                 <div class="contato">
-                    <a href="malito:consultas@consultasterapeuticas.com.br">consultas@consultasterapeuticas.com.br</a>
+                    <a href="mailto:atend.consultasterapeuticas@gmail.com">atend.consultasterapeuticas@gmail.com</a>
                     <p>Copyrights <?php echo date("Y"); ?> - Todos os direitos reservados.</p>
                 </div>
                 <!-- Back to top button -->

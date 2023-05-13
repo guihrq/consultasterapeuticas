@@ -28,7 +28,7 @@
 <body>
     <header class="menu-bg" id="topo">
     <?php if (!wp_is_mobile()) { ?>
-        <div class="menu" style="width: 80%;">
+        <div class="menu" style="width: 81%;">
     <?php } else { ?>
         <div class="menu" style="width: 100%;">
     <?php } ?>
