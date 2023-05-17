@@ -111,9 +111,9 @@
                 <div class="col-sm-12 mx-auto">
                     <h2 class="mb-3">Nossa História</h2>
                     <h3 class="mb-3">O Início</h3>
-                    <p class="mb-1">O projeto foi elaborado, dirigido e realizado por um grupo de psicanalistas do Espaço Potencial Winnicott do Instituto Sedes Sapientiae (ISS) e integrou-se aos Projetos da Clínica deste Instituto, durante o período da Pandemia. A partir de 2023 desvinculou-se do ISS e passou a funcionar como um coletivo independente, aberto à inclusão de profissionais com amplo conhecimento na teoria e pratica winnicottiana com disponibilidade ao voluntariado.</p>
-                    <p class="mb-1">A partir da demanda vinda de diversos pontos do Brasil, este trabalho ofereceu inicialmente suporte psicológico aos profissionais de Saúde que atuavam na linha de frente no início da  Pandemia.Frente à procura, ampliou-se para a população em geral.</p>
-                    <p class="mb-3">Visto que a Pandemia não nos paralisou, ao contrário, permitiu que puséssemos em prática o atendimento on-line. Este se mostrou muito importante e eficaz.</p>
+                    <p class="mb-1">O projeto foi elaborado, dirigido e realizado por um grupo de psicanalistas do Espaço Potencial Winnicott do Instituto Sedes Sapientiae (ISS) e integrou-se aos Projetos da Clínica deste Instituto, durante o período da Pandemia. A partir de 2023 desvinculou-se do ISS e passou a funcionar como um coletivo independente, aberto à inclusão de profissionais com amplo conhecimento na teoria e prática winnicottiana com disponibilidade ao voluntariado.</p>
+                    <p class="mb-1">Iniciamos, com a intenção de oferecer apoio psicológico aos profissionais de saúde que estavam na linha de frente. No entanto, com o aumento da demanda de várias partes do Brasil, percebemos a necessidade de expandir para a população em geral, reconhecendo que todos estavam sendo afetados.</p>
+                    <p class="mb-3">A Pandemia não nos paralisou, ao contrário, permitiu que puséssemos em prática o atendimento on-line. Este se mostrou muito importante e eficaz.</p>
 
                     <h3 class="mb-3">O Resultado</h3>
                     <p class="mb-1">Com o passar do tempo, nosso trabalho foi se tornando conhecido e reconhecido pelo bom atendimento prestado às pessoas que nos procuraram e os próprios pacientes passaram a divulgar nosso serviço entre seus pares. A divulgação “boca a boca" e nas mídias incrementaram muito os atendimentos.</p>
